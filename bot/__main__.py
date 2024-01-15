@@ -87,7 +87,6 @@ async def stats(_, message):
         f"<b>💾Memory Total:</b> {get_readable_file_size(memory.total)}\n"
         f"<b>💾Memory Free:</b> {get_readable_file_size(memory.available)}\n"
         f"<b>💾Memory Used:</b> {get_readable_file_size(memory.used)}\n"
-        🔰Powerd By🔰:</b><a href="https://t.me/scroobots"><b>ScrooBots</b></a>
     )
     await sendMessage(message, stats)
 
